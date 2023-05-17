@@ -38,7 +38,7 @@ mongoose.Promise = global.Promise;
 
 // Se connecter à MongoDB
 mongoose
-    .connect('mongodb+srv://haithem:suicide666death666*@clothy.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000')
+    .connect('mongodb+srv://haithem:clothy2301*@clothy.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000')
     .then(() => {
         // Une fois connecté, afficher un message de réussite sur la console
         console.log(`Connected to ${databaseName}`);
