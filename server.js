@@ -57,7 +57,7 @@ app.use(cookieParser());
 app.use("/uploads", express.static('uploads'));
 //app.use("/upload", express.static('uploads/outfit'));
 app.use(session({
-    secret: process.env.SECRET,
+    secret: 'process.env.SECRET',
      cookie: {
         maxAge: 1000 * 60 * 60 * 24 * 365,
         httpOnly :false
