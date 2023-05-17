@@ -5,6 +5,7 @@
   "main": "server.js",
   "type": "module",
   "scripts": {
+    "test": "echo \"No test specified\"",
     "start": "node server.js"
   },
   "author": "",
